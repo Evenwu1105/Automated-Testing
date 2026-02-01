@@ -11,7 +11,7 @@ import csv
 # 你要爬取的列表页面URL（比如https://xxx.com/list）
 TARGET_URL = "https://aioncodex.com/cn/npcs/light/"
 # 总页数
-MAX_PAGE = 1
+MAX_PAGE = 834
 # 下一页按钮的定位（如果下面的默认值不行，按F12改）
 # ----------------------------------------------------------------
 
@@ -54,6 +54,7 @@ try:
                     "生命力": cols[4].text.strip(),
                     "Grade": cols[5].text.strip()
                 }
+
                 all_data.append(item_data)
                 print(item_data)
 
@@ -82,11 +83,11 @@ finally:
     print("\n浏览器已关闭")
 
 # 保存数据到CSV（Excel打开不乱码）
-# if all_data:
-#     with open("test1.csv", "w", encoding="utf-8-sig", newline="") as f:
-#         writer = csv.DictWriter(f, fieldnames=["ID", "物品名称", "等级", "生命力", "Grade"])
-#         writer.writeheader()
-#         writer.writerows(all_data)
-#     print(f"✅ 所有数据已保存到「test1.csv」，共 {len(all_data)} 条")
-# else:
-#     print("❌ 未爬取到任何数据，请检查页面URL或下一页按钮定位")
+if all_data:
+    with open("../Auto_Tool/res/aion_npc_tianshi.csv", "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["ID", "物品名称", "等级", "生命力", "Grade"])
+        writer.writeheader()
+        writer.writerows(all_data)
+    print(f"✅ 所有数据已保存到「aion_npc_tianshi.csv」，共 {len(all_data)} 条")
+else:
+    print("❌ 未爬取到任何数据，请检查页面URL或下一页按钮定位")
