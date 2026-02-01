@@ -1,0 +1,82 @@
+('D:\\PyCharm 2025.1\\Automated '
+ 'Testing\\build\\aotu_scr_tool\\aotu_scr_tool.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'D:\\PyCharm 2025.1\\Automated Testing\\build\\aotu_scr_tool\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\build\\aotu_scr_tool\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\build\\aotu_scr_tool\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\build\\aotu_scr_tool\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\build\\aotu_scr_tool\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\build\\aotu_scr_tool\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'D:\\PyCharm 2025.1\\Automated '
+   'Testing\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('aotu_scr_tool',
+   'D:\\PyCharm 2025.1\\Automated Testing\\aotu_scr_tool.py',
+   'PYSOURCE')],
+ 'python312.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
